@@ -18,7 +18,6 @@
 		9F6EF845212EFC76005CD0BB /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6EF844212EFC76005CD0BB /* SignUp.swift */; };
 		9F7152942131437100CB633A /* HomeTabVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7152932131437100CB633A /* HomeTabVC.swift */; };
 		9FB785C72139252700160EF9 /* ButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB785C62139252700160EF9 /* ButtonExtension.swift */; };
-		9FDFE05221303FA30092A764 /* DesignableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FDFE05121303FA30092A764 /* DesignableButton.swift */; };
 		9FDFE0542130652A0092A764 /* Icons in Resources */ = {isa = PBXBuildFile; fileRef = 9FDFE0532130652A0092A764 /* Icons */; };
 		9FDFE057213068230092A764 /* NavigationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FDFE056213068230092A764 /* NavigationVC.swift */; };
 /* End PBXBuildFile section */
@@ -37,7 +36,6 @@
 		9F6EF844212EFC76005CD0BB /* SignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
 		9F7152932131437100CB633A /* HomeTabVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTabVC.swift; sourceTree = "<group>"; };
 		9FB785C62139252700160EF9 /* ButtonExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonExtension.swift; sourceTree = "<group>"; };
-		9FDFE05121303FA30092A764 /* DesignableButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignableButton.swift; sourceTree = "<group>"; };
 		9FDFE0532130652A0092A764 /* Icons */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Icons; sourceTree = "<group>"; };
 		9FDFE056213068230092A764 /* NavigationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -83,7 +81,6 @@
 			children = (
 				9F69BCEE213123F8008BFC8C /* Extension */,
 				9FDFE055213067B90092A764 /* Resources */,
-				9FDFE05021303F530092A764 /* IBDesignable */,
 				9F6EF82C212EF992005CD0BB /* AppDelegate.swift */,
 				9F6EF830212EF992005CD0BB /* Main.storyboard */,
 				9F6EF835212EF994005CD0BB /* LaunchScreen.storyboard */,
@@ -96,14 +93,6 @@
 				9F6E3E1521325B3400F185C1 /* CustomTabBar.swift */,
 			);
 			path = FLAVR;
-			sourceTree = "<group>";
-		};
-		9FDFE05021303F530092A764 /* IBDesignable */ = {
-			isa = PBXGroup;
-			children = (
-				9FDFE05121303FA30092A764 /* DesignableButton.swift */,
-			);
-			path = IBDesignable;
 			sourceTree = "<group>";
 		};
 		9FDFE055213067B90092A764 /* Resources */ = {
@@ -195,7 +184,6 @@
 				9FB785C72139252700160EF9 /* ButtonExtension.swift in Sources */,
 				9F69BCED213123D3008BFC8C /* TextFieldExtension.swift in Sources */,
 				9F6EF843212EFC46005CD0BB /* LogIn.swift in Sources */,
-				9FDFE05221303FA30092A764 /* DesignableButton.swift in Sources */,
 				9F6EF841212EFC06005CD0BB /* LoginAndSignup.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

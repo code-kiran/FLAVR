@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14269.14" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="fOF-Cc-yFF">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14269.14" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Naz-cx-tAX">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -47,7 +47,8 @@
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="48" id="MDF-bE-UWL"/>
                                                 </constraints>
-                                                <state key="normal" title="LOG IN">
+                                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <state key="normal" title="dsd">
                                                     <color key="titleShadowColor" red="0.0" green="0.0" blue="0.0" alpha="0.5036922089041096" colorSpace="custom" customColorSpace="displayP3"/>
                                                 </state>
                                                 <userDefinedRuntimeAttributes>
@@ -129,10 +130,14 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="PzM-8H-Hra"/>
                     </view>
+                    <connections>
+                        <outlet property="loginBtn" destination="egA-ny-Geh" id="akD-kN-wa0"/>
+                        <outlet property="signUpBtn" destination="pvh-vX-o8L" id="X0a-vz-uX6"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YoU-HY-095" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="666" y="209"/>
+            <point key="canvasLocation" x="708" y="238"/>
         </scene>
         <!--login-->
         <scene sceneID="uQJ-Ha-wbZ">
@@ -397,6 +402,9 @@
                         <viewLayoutGuide key="safeArea" id="Jgj-jl-gh4"/>
                     </view>
                     <navigationItem key="navigationItem" title="signup" id="Sdf-iG-Gv4"/>
+                    <connections>
+                        <outlet property="signUpBtn" destination="Vib-fE-eYL" id="eUd-uW-c6r"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QvH-w6-Lzv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -419,7 +427,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AhE-xp-D4K" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1679" y="224"/>
+            <point key="canvasLocation" x="1588" y="224"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Chq-6H-f94">

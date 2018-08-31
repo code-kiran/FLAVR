@@ -9,8 +9,11 @@
 import Foundation
 import UIKit
 class SignUp: UIViewController {
+    @IBOutlet weak var signUpBtn: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        signUpBtn.signUpButton()
         //  setCustomBackImage()
     }
     func setCustomBackImage(){

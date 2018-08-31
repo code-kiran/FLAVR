@@ -11,9 +11,13 @@ import UIKit
 
 class LoginAndSignup: UIViewController {
     
+    @IBOutlet weak var loginBtn: UIButton!
     
+    @IBOutlet weak var signUpBtn: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
+        loginBtn.loginButton()
+        signUpBtn.signUpButton()
     }
     @IBAction func loginButtonTapped(_ sender: Any) {
         

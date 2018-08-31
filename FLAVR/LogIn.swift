@@ -10,15 +10,16 @@ import Foundation
 import UIKit
 
 class LogIn: UIViewController {
-    @IBOutlet var emailTextField: UIView!
+    @IBOutlet var emailTextField: UITextField!
     @IBOutlet weak var loginButton: UIButton!
     
-    @IBOutlet var passwordTextField: UIView!
+    @IBOutlet var passwordTextField: UITextField!
     
     override func viewDidLoad() {
         super.viewDidLoad()
           setCustomBackImage()
-        loginButton.loginButton()
+        
+        
 
 }
     func setCustomBackImage(){
