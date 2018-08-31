@@ -7,21 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9F69BCED213123D3008BFC8C /* TextFieldExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F69BCEC213123D3008BFC8C /* TextFieldExtension.swift */; };
+		9F6E3E1621325B3400F185C1 /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6E3E1521325B3400F185C1 /* CustomTabBar.swift */; };
 		9F6EF82D212EF992005CD0BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6EF82C212EF992005CD0BB /* AppDelegate.swift */; };
-		9F6EF82F212EF992005CD0BB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6EF82E212EF992005CD0BB /* ViewController.swift */; };
 		9F6EF832212EF992005CD0BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F6EF830212EF992005CD0BB /* Main.storyboard */; };
 		9F6EF834212EF994005CD0BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F6EF833212EF994005CD0BB /* Assets.xcassets */; };
 		9F6EF837212EF994005CD0BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F6EF835212EF994005CD0BB /* LaunchScreen.storyboard */; };
+		9F6EF841212EFC06005CD0BB /* LoginAndSignup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6EF840212EFC06005CD0BB /* LoginAndSignup.swift */; };
+		9F6EF843212EFC46005CD0BB /* LogIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6EF842212EFC46005CD0BB /* LogIn.swift */; };
+		9F6EF845212EFC76005CD0BB /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6EF844212EFC76005CD0BB /* SignUp.swift */; };
+		9F7152942131437100CB633A /* HomeTabVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7152932131437100CB633A /* HomeTabVC.swift */; };
+		9FB785C72139252700160EF9 /* ButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB785C62139252700160EF9 /* ButtonExtension.swift */; };
+		9FDFE05221303FA30092A764 /* DesignableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FDFE05121303FA30092A764 /* DesignableButton.swift */; };
+		9FDFE0542130652A0092A764 /* Icons in Resources */ = {isa = PBXBuildFile; fileRef = 9FDFE0532130652A0092A764 /* Icons */; };
+		9FDFE057213068230092A764 /* NavigationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FDFE056213068230092A764 /* NavigationVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9F69BCEC213123D3008BFC8C /* TextFieldExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldExtension.swift; sourceTree = "<group>"; };
+		9F6E3E1521325B3400F185C1 /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
 		9F6EF829212EF992005CD0BB /* FLAVR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FLAVR.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F6EF82C212EF992005CD0BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9F6EF82E212EF992005CD0BB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9F6EF831212EF992005CD0BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9F6EF833212EF994005CD0BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9F6EF836212EF994005CD0BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9F6EF838212EF994005CD0BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F6EF840212EFC06005CD0BB /* LoginAndSignup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginAndSignup.swift; sourceTree = "<group>"; };
+		9F6EF842212EFC46005CD0BB /* LogIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogIn.swift; sourceTree = "<group>"; };
+		9F6EF844212EFC76005CD0BB /* SignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
+		9F7152932131437100CB633A /* HomeTabVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTabVC.swift; sourceTree = "<group>"; };
+		9FB785C62139252700160EF9 /* ButtonExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonExtension.swift; sourceTree = "<group>"; };
+		9FDFE05121303FA30092A764 /* DesignableButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignableButton.swift; sourceTree = "<group>"; };
+		9FDFE0532130652A0092A764 /* Icons */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Icons; sourceTree = "<group>"; };
+		9FDFE056213068230092A764 /* NavigationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +53,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9F69BCEE213123F8008BFC8C /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				9F69BCEC213123D3008BFC8C /* TextFieldExtension.swift */,
+				9FB785C62139252700160EF9 /* ButtonExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		9F6EF820212EF992005CD0BB = {
 			isa = PBXGroup;
 			children = (
@@ -54,14 +81,38 @@
 		9F6EF82B212EF992005CD0BB /* FLAVR */ = {
 			isa = PBXGroup;
 			children = (
+				9F69BCEE213123F8008BFC8C /* Extension */,
+				9FDFE055213067B90092A764 /* Resources */,
+				9FDFE05021303F530092A764 /* IBDesignable */,
 				9F6EF82C212EF992005CD0BB /* AppDelegate.swift */,
-				9F6EF82E212EF992005CD0BB /* ViewController.swift */,
 				9F6EF830212EF992005CD0BB /* Main.storyboard */,
-				9F6EF833212EF994005CD0BB /* Assets.xcassets */,
 				9F6EF835212EF994005CD0BB /* LaunchScreen.storyboard */,
 				9F6EF838212EF994005CD0BB /* Info.plist */,
+				9F7152932131437100CB633A /* HomeTabVC.swift */,
+				9F6EF840212EFC06005CD0BB /* LoginAndSignup.swift */,
+				9F6EF842212EFC46005CD0BB /* LogIn.swift */,
+				9F6EF844212EFC76005CD0BB /* SignUp.swift */,
+				9FDFE056213068230092A764 /* NavigationVC.swift */,
+				9F6E3E1521325B3400F185C1 /* CustomTabBar.swift */,
 			);
 			path = FLAVR;
+			sourceTree = "<group>";
+		};
+		9FDFE05021303F530092A764 /* IBDesignable */ = {
+			isa = PBXGroup;
+			children = (
+				9FDFE05121303FA30092A764 /* DesignableButton.swift */,
+			);
+			path = IBDesignable;
+			sourceTree = "<group>";
+		};
+		9FDFE055213067B90092A764 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9F6EF833212EF994005CD0BB /* Assets.xcassets */,
+				9FDFE0532130652A0092A764 /* Icons */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,6 +175,7 @@
 			files = (
 				9F6EF837212EF994005CD0BB /* LaunchScreen.storyboard in Resources */,
 				9F6EF834212EF994005CD0BB /* Assets.xcassets in Resources */,
+				9FDFE0542130652A0092A764 /* Icons in Resources */,
 				9F6EF832212EF992005CD0BB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -135,8 +187,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9F6EF82F212EF992005CD0BB /* ViewController.swift in Sources */,
+				9FDFE057213068230092A764 /* NavigationVC.swift in Sources */,
 				9F6EF82D212EF992005CD0BB /* AppDelegate.swift in Sources */,
+				9F6EF845212EFC76005CD0BB /* SignUp.swift in Sources */,
+				9F7152942131437100CB633A /* HomeTabVC.swift in Sources */,
+				9F6E3E1621325B3400F185C1 /* CustomTabBar.swift in Sources */,
+				9FB785C72139252700160EF9 /* ButtonExtension.swift in Sources */,
+				9F69BCED213123D3008BFC8C /* TextFieldExtension.swift in Sources */,
+				9F6EF843212EFC46005CD0BB /* LogIn.swift in Sources */,
+				9FDFE05221303FA30092A764 /* DesignableButton.swift in Sources */,
+				9F6EF841212EFC06005CD0BB /* LoginAndSignup.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -15,7 +15,22 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+        
+       // UINavigationBar.appearance().backgroundColor = UIColor.red
+        UINavigationBar.appearance().setBackgroundImage(UIImage(), for: .default)
+        UINavigationBar.appearance().shadowImage = UIImage()
         // Override point for customization after application launch.
+        //tabbarcontroller
+        
+//        window = UIWindow(frame: UIScreen.main.bounds)
+//        window?.makeKeyAndVisible()
+//        
+//        let customTabBar = CustomTabBar()
+//        window?.rootViewController = customTabBar
+//        customTabBar.tabBar.isTranslucent = true
+        
+        
+        
         return true
     }
 
